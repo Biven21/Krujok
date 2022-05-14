@@ -77,13 +77,13 @@ void tank_go (int *x, int *y, int *vx, int *vy, int dt)
 
         if (*x < 40)   {*x = 41;}
 
-        if (*x > 1350) {*x = 1349;}
+        if (*x > 1350) {*x = 1200;}
 
         if (*y > 990)  {*y = 989;}
 
         if (*y < 10)   {*y = 11;}
 
-        txSleep (10);
+        txSleep (100);
 
         }
     }
